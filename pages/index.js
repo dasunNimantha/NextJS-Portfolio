@@ -6,8 +6,8 @@ export default function Home() {
   return (
     <div>
       <Head>
-          <meta charset="UTF-8" />
-          <meta http-equiv="X-UA-Compatible" content="IE=edge"/> 
+          <meta charSet="UTF-8" />
+          <meta httpEquiv="X-UA-Compatible" content="IE=edge"/> 
           <title>Portfolio | Dasun | Nimantha</title>
           <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
           <meta name="description" content="Dasun Nimantha - Resume / Portfolio" />
@@ -25,34 +25,132 @@ export default function Home() {
       </Head>
 
       <main className='page'>
-          <div class="lm-animated-bg"></div>
-            
-          <div class="lmpixels-scroll-to-top"><i class="lnr lnr-chevron-up"></i></div>
-          <div class="page-scroll">
-              <div id="page_container" class="page-container bg-move-effect" data-animation="transition-flip-in-right">
-                <header id="site_header" class="header">
-                    <div class="header-content clearfix">
+          <div className="lm-animated-bg"></div>  
+          <div className="lmpixels-scroll-to-top"><i className="lnr lnr-chevron-up"></i></div>
+          <div className="page-scroll">
+              <div id="page_container" className="page-container bg-move-effect" data-animation="transition-flip-in-right">
+                <header id="site_header" className="header">
+                    <div className="header-content clearfix">
                           
                   
-                      <div class="text-logo">
+                      <div className="text-logo">
                         <a href="index.html">
-                          <div class="logo-symbol">D</div>
-                          <div class="logo-text">Dasun <span>Nimantha</span></div>
+                          <div className="logo-symbol">D</div>
+                          <div className="logo-text">Dasun <span>Nimantha</span></div>
                         </a>
                       </div>
                   
                       <Navbar/>
-                      <a class="menu-toggle mobile-visible">
-                        <i class="fa fa-bars"></i>
+                      <a className="menu-toggle mobile-visible">
+                        <i className="fa fa-bars"></i>
                       </a>
                     
                     </div>
                 </header>
+
+                <main>
+                  <div id="main" className="site-main">
+                      <div id="main-content" className="single-page-content">
+                          <div id="primary" className="content-area">    
+                          <div id="content" className="page-content site-content single-post" role="main">
+                              <div className="row">
+                              <div className=" col-xs-12 col-sm-12">
+                                  <div className="home-content">
+                                  <div className="row flex-v-align">
+                                      <div className="col-sm-12 col-md-5 col-lg-5">
+                                      <div className="home-photo">
+                                          <div className="hp-inner" style={{backgroundImage: 'url(img/main_photo.jpg)'}}>
+                                          </div>
+                                      </div>
+                                      </div>
+                                      <div className="col-sm-12 col-md-7 col-lg-7">
+                                      <div className="home-text hp-left">
+                                          <div className="owl-carousel text-rotation">                                    
+                                          <div className="item">
+                                              <h4>Frontend-developer</h4>
+                                          </div>
+                                          <div className="item">
+                                              <h4>Web Designer</h4>
+                                          </div>
+                                          </div>
+                                          <h1>Hi there...</h1>
+                                          <p>Fusce tempor magna mi, non egestas velit ultricies nec. Aenean convallis, risus non condimentum gravida, odio mauris ullamcorper felis, ut venenatis purus ex eu mi. Quisque imperdiet lacinia urna, a placerat sapien pretium eu.</p>
+                                          <div className="home-buttons">
+                                          <a href="#" target="_blank" className="btn btn-primary">Download CV</a>
+                                          <a href="#" target="_self" className="btn btn-secondary">Contact</a>
+                                          </div>
+                                      </div>
+                                      </div>
+                                  </div>
+                                  </div>
+                              </div>
+                              </div>
+                              <div>
+                                
+                              <div className="row">
+                                <div className="col-xs-12 col-sm-12">
+                                  <div className="p-50" />
+                                  <div className="block-title">
+                                    <h2>What I Do</h2>
+                                  </div>
+                                </div>
+                              </div>
+                              <div className="row">
+                                <div className="col-xs-12 col-sm-6">
+                                  <div className="info-list-w-icon">
+                                    <div className="info-block-w-icon">
+                                      <div className="ci-icon">
+                                        <i className="linecons linecons-pen" />
+                                      </div>
+                                      <div className="ci-text">
+                                        <h4>Copywrite</h4>
+                                        <p>Mauris neque libero, aliquet vel mollis nec, euismod sed tellus. Mauris convallis dictum elit id volutpat. Vivamus blandit, dolor vitae lacinia maximus, risus velit vehicula odio, a tincidunt turpis turpis tempus ex.</p>
+                                      </div>
+                                    </div>
+                                    <div className="info-block-w-icon">
+                                      <div className="ci-icon">
+                                        <i className="linecons linecons-display" />
+                                      </div>
+                                      <div className="ci-text">
+                                        <h4>Web Design</h4>
+                                        <p>Mauris neque libero, aliquet vel mollis nec, euismod sed tellus. Mauris convallis dictum elit id volutpat. Vivamus blandit, dolor vitae lacinia maximus, risus velit vehicula odio, a tincidunt turpis turpis tempus ex.</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div className="col-xs-12 col-sm-6">
+                                  <div className="info-list-w-icon">
+                                    <div className="info-block-w-icon">
+                                      <div className="ci-icon">
+                                        <i className="linecons linecons-shop" />
+                                      </div>
+                                      <div className="ci-text">
+                                        <h4>Ecommerce</h4>
+                                        <p>Mauris neque libero, aliquet vel mollis nec, euismod sed tellus. Mauris convallis dictum elit id volutpat. Vivamus blandit, dolor vitae lacinia maximus, risus velit vehicula odio, a tincidunt turpis turpis tempus ex.</p>
+                                      </div>
+                                    </div>
+                                    <div className="info-block-w-icon">
+                                      <div className="ci-icon">
+                                        <i className="linecons linecons-megaphone" />
+                                      </div>
+                                      <div className="ci-text">
+                                        <h4>Marketing</h4>
+                                        <p>Mauris neque libero, aliquet vel mollis nec, euismod sed tellus. Mauris convallis dictum elit id volutpat. Vivamus blandit, dolor vitae lacinia maximus, risus velit vehicula odio, a tincidunt turpis turpis tempus ex.</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+                          </div>
+                          </div> 
+                      </div>
+                  </div>
+                </main>
                 <Footer/>
               </div>
           </div>
-         
-
           <script src="js/jquery-2.1.3.min.js"></script>
           <script src="js/imagesloaded.pkgd.min.js"></script>
           <script src="js/bootstrap.min.js"></script>
