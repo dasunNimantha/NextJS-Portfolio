@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
 
+
 export default function Home() {
   return (
     <div>
@@ -31,8 +32,6 @@ export default function Home() {
               <div id="page_container" className="page-container bg-move-effect" data-animation="transition-flip-in-right">
                 <header id="site_header" className="header">
                     <div className="header-content clearfix">
-                          
-                  
                       <div className="text-logo">
                         <a href="index.html">
                           <div className="logo-symbol">D</div>
@@ -87,15 +86,16 @@ export default function Home() {
                               </div>
                               <div>
                                 
-                              <div className="row">
+                              {/* <div className="row">
                                 <div className="col-xs-12 col-sm-12">
                                   <div className="p-50" />
                                   <div className="block-title">
                                     <h2>What I Do</h2>
                                   </div>
                                 </div>
-                              </div>
-                              <div className="row">
+                              </div> */}
+
+                              {/* <div className="row">
                                 <div className="col-xs-12 col-sm-6">
                                   <div className="info-list-w-icon">
                                     <div className="info-block-w-icon">
@@ -140,15 +140,17 @@ export default function Home() {
                                     </div>
                                   </div>
                                 </div>
-                              </div>
+                              </div> */}
+
                             </div>
 
                           </div>
                           </div> 
                       </div>
                   </div>
-                </main>
                 <Footer/>
+                </main>
+               
               </div>
           </div>
           <script src="js/jquery-2.1.3.min.js"></script>
@@ -162,6 +164,9 @@ export default function Home() {
           <script src="js/jquery.googlemap.js"></script>
           <script src="js/validator.js"></script>
           <script src="js/main.js"></script>
+
+          <script type="text/javascript" id="hs-script-loader" async defer src="//js-na1.hs-scripts.com/20178704.js"></script>
+
         
       </main>
     

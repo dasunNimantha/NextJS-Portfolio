@@ -1,4 +1,5 @@
 const Footer = ()=>{
+    const currentYear = new Date().getFullYear();
     return(
        <footer className="site-footer clearfix">
             <div className="footer-social">
@@ -15,7 +16,7 @@ const Footer = ()=>{
                 </ul>
             </div>
             <div className="footer-copyrights">
-                <p>© 2021 All rights reserved.</p>
+                <p>© {currentYear} All rights reserved.</p>
             </div>
         </footer>
 
